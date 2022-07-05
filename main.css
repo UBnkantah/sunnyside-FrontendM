@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Add a black background color to the top navigation */
+/* .topnav {
+    background-color: rgb(16, 158, 219);
+    position: fixed;
+    overflow: hidden;
+  } */
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .topnav span {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .second-line{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 403px;
+    padding: 500px;
+    /* padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 60%; */
+  }
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .first-container{
+    /* margin: 10px; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px 500px;
+  }
+  .el1{
+    background-color: white;
+  }
+  .el2{
+    background-color: rgb(254,212,3);
+ }
+  .el3{
+    background-color: rgb(255, 128, 111);
+  }
+  .el4{
+    background-color: white;
+  }
+  .el5{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+  }
+  .el6{
+    background-image: url(./images/desktop/image-photography.jpg);
+  }
+  .el-contents{
+        margin: 170px;
+  }
+  .para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .el-text{
+    text-align: left;
+  }
+  #el-contents{
+    margin-top: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .second-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 300px;
+    grid-gap: 10px;
+  }
+  .img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 140px;
+  }
+  .eli-contents{
+    margin: 20px;
+  }
+  #text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  #name{
+    font-weight: bolder;
+    text-align: center;
+   }
+   #title{
+    text-align: center;
+   }
+   .third-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 450px;
+   }
+   .fourth-container{
+    margin-left: 580px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    /* display: grid;
+    grid-template-columns: 5% 5% 10%;
+    grid-template-rows: 20px; */
+   }
+   #tet{
+    margin-right: 40px;
+   }
+   .fifth-container{
+    display:grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-content: center;
+   }
+   .footer-container{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0;
+   }
